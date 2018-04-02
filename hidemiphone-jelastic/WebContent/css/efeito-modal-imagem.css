@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+body {
+    font: 12px 'Open Sans';
+}
+.form-control, .thumbnail {
+    border-radius: 2px;
+}
+.btn-danger {
+    background-color: #B73333;
+}
+.bg-warning {
+    background-color: #380f0f !important;
+    color: white;
+}
+#addImagemModalLabel, h2 {
+    font-size: 20px;
+
+}
+#modalImagem, .close {
+    float: right;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1;
+    color: #ffffff;
+    text-shadow: 0 1px 0 #D4D4D4;
+    filter: alpha(opacity=20);
+    opacity: .2;
+}
+
+#modalImagem, .close:focus, .close:hover {
+    color: #ccc;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.modal-title, .titulo {
+	color:white;
+}
+
+/* File Upload */
+.fake-shadow {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+}
+.fileUpload #frente {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 33px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.fileUpload #verso {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 33px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.fileUpload #lateral {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 33px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.img-visualizar-1 {
+    max-width: 150px;
+    max-height: 150px;
+}
+.img-visualizar-2 {
+    max-width: 150px;
+    max-height: 150px;
+
+}
+.img-visualizar-3 {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

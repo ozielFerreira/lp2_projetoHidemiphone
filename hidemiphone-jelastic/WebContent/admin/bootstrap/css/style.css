@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+
+
+
+
+
+/* ESTILO EFEITO E COR BOTOES E MSG ALERTA*/
+.alert-danger {
+    color: rgb(252, 248, 227);
+    background-color: rgba(255, 22, 27, 0.5);
+    border-color: #444444;
+}
+
+.alert-success {
+    color: #333;
+    background-color: rgba(82, 255, 9, 0.45);
+    border-color: #797979;
+}
+
+.alert-dismissable, .alert-dismissible {
+    padding-right: 35px;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-dismissable .close, .alert-dismissible .close {
+    position: relative;
+    top: -15px;
+    right: -12px;
+    color: inherit;
+}
+
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+}
+
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #555;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: inherit;
+}
+/* FIM DO EFEITO E COR DOS BOTOES*/
+.nav{
+background: rgba(0,0,0,0.35);
+}
+
+label{
+font-size:12pt;
+color: black;
+}
+label.editarSenha{
+    color: blacks;
+}
+
+.btn-outline {
+  color: inherit;
+  background-color: transparent;
+  transition: all .5s;
+}
+.btn-primary.btn-outline {
+  color: #428bca;
+}
+.btn-default.btn-outline {
+  color: #fff;
+}
+.btn-success.btn-outline {
+  color: #5cb85c;
+}
+.btn-info.btn-outline {
+  color: #5bc0de;
+}
+.btn-warning.btn-outline {
+  color: #f0ad4e;
+}
+.btn-danger.btn-outline {
+  color: #d9534f;
+}
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+  color: white;
+}
+.btn-default.btn-outline:hover{
+color: black;
+}
+
+.text-center {
+  margin: 15px 0;
+
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 0px;
+  background-color: #000;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#footer {
+  padding: 10px 15px 0;
+
+}
